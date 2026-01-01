@@ -1,31 +1,27 @@
-Project: Metasploitable & OWASP Mutillidae II Lab
+Metasploitable & OWASP Mutillidae II - Commands Used
 
-Objective:
------------
-To fix the Mutillidae II database error and ensure the application runs successfully.
-
-Commands Executed:
-------------------
-# Switch to root
+1. User Creation
+----------------
 sudo su
-
-# Create new user
 useradd manish
 passwd manish
-
-# Verify user
 id manish
 
-# Start MySQL service (SysV init)
+2. MySQL Service Management (Metasploitable uses SysV init)
+-----------------------------------------------------------
 /etc/init.d/mysql start
-
-# Check MySQL status
 /etc/init.d/mysql status
 
-Application Access:
--------------------
+3. Mutillidae II Access
+----------------------
+URL:
 http://<metasploitable-ip>/mutillidae
 
-Result:
--------
-Mutillidae II application loaded successfully with no database errors.
+4. Database Initialization
+--------------------------
+Performed using the web interface:
+Click on "Setup / Reset Database" in Mutillidae.
+
+5. Verification
+---------------
+Mutillidae II loaded successfully in browser without database errors.
