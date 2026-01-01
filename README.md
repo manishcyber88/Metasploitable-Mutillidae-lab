@@ -1,6 +1,7 @@
 # Metasploitable & OWASP Mutillidae II Lab
 
-##🚀🚀 Objective
+## Objective
+
 To set up Metasploitable and fix the Mutillidae II database error and demonstrate OWASP Top 10 vulnerabilities.
 
 ## Tools Used
