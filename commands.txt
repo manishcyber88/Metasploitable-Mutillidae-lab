@@ -1,0 +1,31 @@
+Project: Metasploitable & OWASP Mutillidae II Lab
+
+Objective:
+-----------
+To fix the Mutillidae II database error and ensure the application runs successfully.
+
+Commands Executed:
+------------------
+# Switch to root
+sudo su
+
+# Create new user
+useradd manish
+passwd manish
+
+# Verify user
+id manish
+
+# Start MySQL service (SysV init)
+/etc/init.d/mysql start
+
+# Check MySQL status
+/etc/init.d/mysql status
+
+Application Access:
+-------------------
+http://<metasploitable-ip>/mutillidae
+
+Result:
+-------
+Mutillidae II application loaded successfully with no database errors.
