@@ -82,7 +82,7 @@ http://metasploitable-IP/mutillidae
 Example: 
 http://192.168.75.128/mutillidae
 
-## Step 11: Reset Mutillidae Database (First Time Only)
+## Step13: Reset Mutillidae Database (First Time Only)
 
 From the Mutillidae web interface:
  - Click on Reset DB
