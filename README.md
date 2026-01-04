@@ -35,7 +35,7 @@ sudo su
 ```bash
 cd /var/www/mutillidae
 ```
-## Step4: List all th files
+## Step4: List all the files
 ```bash
 ls
 ```
